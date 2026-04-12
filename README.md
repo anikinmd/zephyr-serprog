@@ -4,7 +4,8 @@ A [Zephyr RTOS](https://zephyrproject.org/) based firmware that turns any Zephyr
 
 ## Supported Boards
 
-- **STM32 BlackPill (blackpill_f411ce)** — supported out of the box
+- **STM32 BlackPill (blackpill_f411ce)**
+- **STM32 BluePill (stm32_min_dev_blue)**
 
 ## Building
 
