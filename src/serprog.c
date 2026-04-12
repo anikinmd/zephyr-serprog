@@ -16,7 +16,7 @@
 LOG_MODULE_REGISTER(serprog, LOG_LEVEL_INF);
 
 #define BUSTYPE_SPI_ONLY 0b1000
-#define BUF_SIZE 4096
+#define BUF_SIZE CONFIG_SERPROG_BUF_SIZE
 #define SP_DATA_TIMEOUT_MS 300
 
 enum serprog_cmd_state
